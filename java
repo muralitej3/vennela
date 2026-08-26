@@ -38,10 +38,7 @@ public class EvenOdd {
 <html>
 <head>
     <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="style.css"><body>
 
     <h1>Welcome to My Website</h1>
 
