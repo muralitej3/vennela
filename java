@@ -48,6 +48,3 @@ public class EvenOdd {
     <p>Hello Murali! I am learning HTML and CSS.</p>
 
     <button>Click Me</button>
-
-</body>
-</html>
