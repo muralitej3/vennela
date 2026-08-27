@@ -1,10 +1,4 @@
-# 1
-import os
 
-# 2
-import platform
-
-# 3
 import datetime
 
 # 4
@@ -255,45 +249,3 @@ def deployment_status(application):
 
 # 86
     return "SUCCESS"
-
-# 87
-result = deployment_status("Payment-App")
-
-# 88
-print("Deployment Result:", result)
-
-# 89
-print("-------------------------------")
-
-# 90
-if result == "SUCCESS":
-
-# 91
-    print("Deployment completed successfully")
-
-# 92
-else:
-
-# 93
-    print("Deployment failed")
-
-# 94
-print("-------------------------------")
-
-# 95
-print("Monitoring completed")
-
-# 96
-print("Server:", hostname)
-
-# 97
-print("Status: HEALTHY")
-
-# 98
-print("Environment: Production")
-
-# 99
-print("Alert Status: No alerts")
-
-# 100
-print("===== END MONITORING =====")
