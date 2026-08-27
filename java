@@ -4,5 +4,4 @@
                                  kkkkkkkkkkkkkkk
                                  kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllll
             llllllllllLLkkm
-            kkkkkkkkkkkkkkkkkkkk
-            hhhhhhhhhhhhhhhhh
+            kkkkkk
