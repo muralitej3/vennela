@@ -1,0 +1,307 @@
+# 1
+print("Welcome to Python Practice")
+
+# 2
+name = "Murali"
+
+# 3
+age = 25
+
+# 4
+experience = 2
+
+# 5
+print("Name:", name)
+
+# 6
+print("Age:", age)
+
+# 7
+print("Experience:", experience, "years")
+
+# 8
+language = "Python"
+
+# 9
+print("Learning:", language)
+
+# 10
+number = 10
+
+# 11
+if number > 5:
+    print("Number is greater than 5")
+
+# 12
+if number == 10:
+    print("Number is 10")
+
+# 13
+if number % 2 == 0:
+    print("Number is even")
+
+# 14
+else:
+    print("Number is odd")
+
+# 15
+marks = 75
+
+# 16
+if marks >= 90:
+    grade = "A"
+
+# 17
+elif marks >= 75:
+    grade = "B"
+
+# 18
+elif marks >= 60:
+    grade = "C"
+
+# 19
+else:
+    grade = "D"
+
+# 20
+print("Grade:", grade)
+
+# 21
+for i in range(1, 6):
+
+# 22
+    print("Number:", i)
+
+# 23
+print("Even numbers:")
+
+# 24
+for i in range(2, 11, 2):
+
+# 25
+    print(i)
+
+# 26
+print("Multiplication table:")
+
+# 27
+table = 5
+
+# 28
+for i in range(1, 11):
+
+# 29
+    result = table * i
+
+# 30
+    print(table, "x", i, "=", result)
+
+# 31
+numbers = [10, 20, 30, 40, 50]
+
+# 32
+print("List:", numbers)
+
+# 33
+print("First value:", numbers[0])
+
+# 34
+print("Last value:", numbers[-1])
+
+# 35
+numbers.append(60)
+
+# 36
+print("After append:", numbers)
+
+# 37
+numbers.remove(20)
+
+# 38
+print("After remove:", numbers)
+
+# 39
+total = sum(numbers)
+
+# 40
+print("Total:", total)
+
+# 41
+largest = max(numbers)
+
+# 42
+print("Largest:", largest)
+
+# 43
+smallest = min(numbers)
+
+# 44
+print("Smallest:", smallest)
+
+# 45
+def addition(a, b):
+
+# 46
+    return a + b
+
+# 47
+answer = addition(10, 20)
+
+# 48
+print("Addition:", answer)
+
+# 49
+def subtraction(a, b):
+
+# 50
+    return a - b
+
+# 51
+print("Subtraction:", subtraction(20, 10))
+
+# 52
+def multiplication(a, b):
+
+# 53
+    return a * b
+
+# 54
+print("Multiplication:", multiplication(5, 4))
+
+# 55
+def division(a, b):
+
+# 56
+    if b == 0:
+
+# 57
+        return "Cannot divide by zero"
+
+# 58
+    return a / b
+
+# 59
+print("Division:", division(20, 5))
+
+# 60
+student = {
+
+# 61
+    "name": "Murali",
+
+# 62
+    "course": "DevOps",
+
+# 63
+    "experience": 2,
+
+# 64
+    "skill": "Linux"
+
+# 65
+}
+
+# 66
+print("Student:", student)
+
+# 67
+print("Student name:", student["name"])
+
+# 68
+print("Course:", student["course"])
+
+# 69
+student["skill"] = "AWS"
+
+# 70
+print("Updated skill:", student["skill"])
+
+# 71
+text = "DevOps"
+
+# 72
+print("Text:", text)
+
+# 73
+print("Length:", len(text))
+
+# 74
+print("Uppercase:", text.upper())
+
+# 75
+print("Lowercase:", text.lower())
+
+# 76
+words = ["Linux", "Git", "AWS", "Docker", "Jenkins"]
+
+# 77
+print("DevOps tools:")
+
+# 78
+for tool in words:
+
+# 79
+    print(tool)
+
+# 80
+file_name = "practice.txt"
+
+# 81
+file = open(file_name, "w")
+
+# 82
+file.write("This is Python practice.")
+
+# 83
+file.write("\nPython is useful for DevOps.")
+
+# 84
+file.close()
+
+# 85
+file = open(file_name, "r")
+
+# 86
+content = file.read()
+
+# 87
+print("File content:")
+
+# 88
+print(content)
+
+# 89
+file.close()
+
+# 90
+try:
+
+# 91
+    x = 10
+
+# 92
+    y = 2
+
+# 93
+    print("Safe division:", x / y)
+
+# 94
+except ZeroDivisionError:
+
+# 95
+    print("Cannot divide by zero")
+
+# 96
+finally:
+
+# 97
+    print("Program completed")
+
+# 98
+print("Python practice finished")
+
+# 99
+print("Keep learning Python")
+
+# 100
+print("Next: Python + Linux + AWS + DevOps")
