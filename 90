@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Murali's DevOps Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            line-height: 2;
+        }
+
+        .skill {
+            background-color: #eee;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Murali Chakali</h1>
+        <p>DevOps Engineer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am learning DevOps and Linux.
+                I am interested in cloud technologies,
+                automation and infrastructure.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <div class="skill">Linux</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">AWS</div>
+            <div class="skill">Jenkins</div>
+            <div class="skill">Docker</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: example@gmail.com</p>
+            <p>Location: India</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Murali | DevOps Engineer</p>
+    </footer>
+
+</body>
+</html>
