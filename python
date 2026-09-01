@@ -14,7 +14,7 @@ print("===== DEVOPS SYSTEM MONITOR =====")
 hostname = platform.node()
 
 # 6
-system = platform.system()
+system = platform.system()dddd
 
 # 7
 release = platform.release()
